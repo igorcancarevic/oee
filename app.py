@@ -7,9 +7,9 @@ st.set_page_config(page_title="OEE Profit Leak Analyzer | The Value Stack", layo
 # Title & Brand Intro
 st.title("🏭 OEE & Profit Leak Analyzer")
 st.markdown("""
-*Insights by Igor Čančarević*
+*Insights by Igor Cancarevic*
 
-In the world of high-stakes manufacturing, OEE (Overall Equipment Effectiveness) is the ultimate metric for efficiency. 
+In the world of manufacturing, OEE (Overall Equipment Effectiveness) is the ultimate metric for efficiency. 
 But to truly move the needle, we must translate these percentages into the language of business: **Cash Flow.**
 """)
 
@@ -126,4 +126,4 @@ with st.expander("📝 The Value Stack Methodology: How we calculate this"):
     st.write("We don't just look at what happened; we look at the **Opportunity Cost**. We compare your actual good output against the theoretical maximum output of the planned time.")
     st.latex(r"\text{Profit Leak} = \left( \frac{\text{Planned Time}}{\text{Ideal Cycle Time}} - \text{Good Units} \right) \times \text{Profit per Unit}")
 
-st.info("💡 **Pro-Tip:** Don't chase 100%. In many industries, the cost of reaching 100% OEE is higher than the profit it generates. Aim for 'World Class' (85%) and then optimize for stability.")
+st.info("💡 Don't chase 100%. In many industries, the cost of reaching 100% OEE is higher than the profit it generates. Aim for 'World Class' (85%) and then optimize for stability.")
